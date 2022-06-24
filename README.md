@@ -1,4 +1,4 @@
-# Yolov5-Football-Detection-in-live-matche
+# Yolov5-Football-Detection-in-live-match
 
 Such an amazing model thank you YOLOv5, it helps to better understand the object detetion. 
 
