@@ -24,7 +24,11 @@ Similarly the lables folder will conatain  annotation txt file for images.
 
 we can use https://www.makesense.ai for annotaion.
 
-Step2. 
+Step2.
+In the yolov5-master we have .\data\coco128.yaml file.
+Provide the path for your test data and train data and lables
+Make changes in number of classes , i.e. nc=2 for two classes ['foot', 'person'].
+Trainig the model:
 
 
 
