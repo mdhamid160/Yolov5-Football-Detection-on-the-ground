@@ -19,6 +19,10 @@ Data->
         labels->
                   [val]
                   
+images folder will contain images for training and validation in the ratio of 7:3
+Similarly the lables folder will conatain  annotation txt file for images.
+
+we can use https://www.makesense.ai for annotaion.
 
 Step2. 
 
