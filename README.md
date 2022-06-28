@@ -8,16 +8,16 @@ These are simple steps for taining and testing.
 Step1. Prepare your dataset in following order in folders
 
 
-                  [train]
-        images->
-                  [val]
+                   [train]
+         images->
+                    [val]
 
 
 Data->
 
-                  [train]   
-        labels->
-                  [val]
+                    [train]   
+          labels->
+                    [val]
                   
 images folder will contain images for training and validation in the ratio of 7:3
 Similarly the lables folder will conatain  annotation txt file for images.
@@ -28,8 +28,22 @@ Step2.
 In the yolov5-master we have .\data\coco128.yaml file.
 Provide the path for your test data and train data and lables
 Make changes in number of classes , i.e. nc=2 for two classes ['foot', 'person'].
-Trainig the model:
 
+Trainig the model:
+Run tain.py file with modified number of parameter like batch size, number of epochs, learnning rate.
+
+
+Output:
+The output after training the model will be availble in the new folder called test .\runs\train. New weights will be there in folder.
+
+Inferencing:
+We can use new best weights to test our model on new unseen images or video.
+Place your images or video in .\test folder 
+Execute the detect.py 
+The output will be availble at .\runs\detect\exp
+
+
+Here you Go.
 
 
 
@@ -44,3 +58,12 @@ Before Training..........
 After Traing.............
 
 ![img1](https://user-images.githubusercontent.com/33762043/174591922-478673aa-8c69-45b1-8987-b816361081b3.jpg)
+
+
+
+
+
+
+
+
+<----------------------------------------------------Enjoy Learing------------------------------------------------------------------->
