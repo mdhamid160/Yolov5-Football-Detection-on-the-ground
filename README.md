@@ -5,7 +5,9 @@ Such an amazing model thank you YOLOv5, it helps to better understand the object
 I trained Yolo model on my custom data and can identify objects easily.
 These are simple steps for taining and testing.
 
-Step1. Prepare your dataset in following order in folders
+Step1. 
+
+Prepare your dataset in following order in folders
 
 
                    [train]
