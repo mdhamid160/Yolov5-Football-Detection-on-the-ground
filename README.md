@@ -1,6 +1,6 @@
 # Yolov5-Football-Detection-in-live-match
 
-Such an amazing model thank you YOLOv5, it helps to better understand the object detetion. 
+Such an amazing model thank you YOLOv5, it helps to better understand the object detection. 
 
 I trained Yolo model on my custom data and can identify objects easily.
 These are simple steps for taining and testing.
