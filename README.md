@@ -29,13 +29,18 @@ In the yolov5-master we have .\data\coco128.yaml file.
 Provide the path for your test data and train data and lables
 Make changes in number of classes , i.e. nc=2 for two classes ['foot', 'person'].
 
+
+Step3.
 Trainig the model:
 Run tain.py file with modified number of parameter like batch size, number of epochs, learnning rate.
 
 
+Step4.
 Output:
 The output after training the model will be availble in the new folder called test .\runs\train. New weights will be there in folder.
 
+
+Step5.
 Inferencing:
 We can use new best weights to test our model on new unseen images or video.
 Place your images or video in .\test folder 
@@ -66,4 +71,4 @@ After Traing.............
 
 
 
-<----------------------------------------------------Enjoy Learing------------------------------------------------------------------->
+<----------------------------------------------------Enjoy Learning------------------------------------------------------------------->
