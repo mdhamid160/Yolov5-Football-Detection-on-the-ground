@@ -36,7 +36,7 @@ Make changes in number of classes , i.e. nc=2 for two classes ['foot', 'person']
 Step3.
 
 Trainig the model:
-Run tain.py file with modified number of parameter like batch size, number of epochs, learnning rate.
+Run train.py file with modified number of parameter like batch size, number of epochs, learnning rate.
 
 
 Step4.
